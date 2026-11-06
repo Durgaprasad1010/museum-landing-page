@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Museo Sans - Museum Website</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header / Navigation -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="nav-left">
+          <button class="nav-btn brand-btn">Museo Sans</button>
+          <button class="nav-btn active-btn desktop-nav">Collections</button>
+          <button class="nav-btn desktop-nav">Menu</button>
+          <button class="nav-btn desktop-nav">Events</button>
+        </div>
+        <div class="nav-right">
+          <button class="nav-btn desktop-nav">Contact</button>
+          <button class="nav-btn menu-btn">Menu</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Grid -->
+    <main class="bento-grid">
+      <!-- Card 1: Tall Left Card -->
+      <article class="card card-1">
+        <div class="card-body">
+          <span class="pill-tag">CONGREVE STREET</span>
+          <h2 class="card-heading">
+            Birmingham <span class="underline">Museums.</span>
+          </h2>
+          <div class="img-container card-1-img">
+            <img src="assets/castle-img.svg" alt="Birmingham Museums" />
+          </div>
+        </div>
+        <footer class="card-footer">
+          <span class="footer-text">Get Started</span>
+          <span class="arrow">&rarr;</span>
+        </footer>
+      </article>
+
+      <!-- Right Column -->
+      <section class="right-column">
+        <!-- Card 2: Top Wide Card -->
+        <article class="card card-2">
+          <div class="card-body card-2-body">
+            <div class="card-2-info">
+              <span class="pill-tag">EUROPEANA</span>
+              <h2 class="card-heading">
+                A Woman Slicing <span class="underline">Bread.</span>
+              </h2>
+              <p class="card-desc">
+                Date: 1800. Institution: Rijksmuseum. Provider: Rijksmuseum.
+                Providing country: Netherlands. Public domain. Photo by
+                Europeana.
+              </p>
+            </div>
+            <div class="img-container card-2-img">
+              <img
+                src="assets/woman_slicing_bread.svg"
+                alt="A Woman Slicing Bread"
+              />
+            </div>
+          </div>
+          <footer class="card-footer">
+            <span class="footer-text">Get Started</span>
+            <span class="arrow">&rarr;</span>
+          </footer>
+        </article>
+
+        <!-- Bottom Row: Cards 3 & 4 -->
+        <div class="bottom-subgrid">
+          <!-- Card 3: Portrait Card -->
+          <article class="card card-3">
+            <div class="card-body">
+              <div class="img-container card-3-img">
+                <img
+                  src="assets/portrait.svg"
+                  alt="Portrait of Maritge Claesdr Vooght"
+                />
+              </div>
+              <div class="portrait-title-row">
+                <h2 class="portrait-heading">Portrait</h2>
+                <div class="three-dots">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+              </div>
+              <p class="card-desc">
+                Portrait of Maritge Claesdr Vooght. Date: 1639. Institution:
+                Rijksmuseum. Provider: Rijksmuseum. Providing country:
+                Netherlands. Public domain.
+              </p>
+            </div>
+            <footer class="card-footer">
+              <span class="footer-text">Get Started</span>
+              <span class="arrow">&rarr;</span>
+            </footer>
+          </article>
+
+          <!-- Card 4: Painting Card -->
+          <article class="card card-4">
+            <div class="card-body">
+              <div class="card-4-top">
+                <span class="pill-tag">EUROPEANA</span>
+                <div class="img-container avatar-img">
+                  <img src="assets/portrait_man.svg" alt="Portrait of a Man" />
+                </div>
+              </div>
+              <h2 class="card-heading">
+                Vintage <span class="underline">Painting.</span>
+              </h2>
+              <p class="card-desc">
+                Portrait of a Man. Date: 1648. Institution: Rijksmuseum.
+                Provider: Rijksmuseum. Providing country: Netherlands. Public
+                domain.
+              </p>
+              <div class="meta-strip">
+                <span>PUBLIC DOMAIN</span>
+                <span class="meta-bold">NETHERLANDS</span>
+              </div>
+            </div>
+            <footer class="card-footer">
+              <span class="footer-text">Get Started</span>
+              <span class="arrow">&rarr;</span>
+            </footer>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
